@@ -10,17 +10,45 @@
 <body>
     <!-- Add your HTML content here -->
     <header>
-        <h1>GPU resources</h1>
+        <h1>GPU resources at Duke</h1>
     </header>
     
     <main>
-    <p>There are two high performance compute cluster with GPUs.</p>
+    <p>There are two high performance compute clusters with GPUs.</p>
+	
+	<h3><a href="HPC-non-sensitive-data.html">
+	   Duke Compute Cluster (DCC)</a></h3>
 	<ul>
-	  <li>The <a href="HPC-non-sensitive-data.html">
-	   Duke Compute Cluster (DCC)</a> contain XXXXXX</li>
-	  <li>The <a href="HPC-sensitive-data.html">School of Medicine HPC cluster</a>
-	  has a single GPU node with 4 X NVIDIA L40S GPUs + 64 CPU cores and 1 TB RAM,
-      as of June 2024 charged at $3.50 / GPU-hour. 
+	  <li> Contains multiple GPUs, including
+	   A6000's and A5000's. </li>
+	   <li>Some of these are on the "scavenger partition",
+	   which is a <a href="https://slurm.schedmd.com" target="_blank">Slurm partition</a>
+	   for PI-owned nodes that are available to
+	   other users willing to be evicted when the owner wants to use the node.</li>
+	   <li>PI-owned GPU nodes can be added provided they are compatible with the DCC's requirements
+	   regarding operating system, power usage, form factor, etc. Contact </li>
+	   <li>For additional help and advice regarding GPUs in DCC
+	   <a href="https://outlook.office365.com/owa/calendar/ResearchComputing@ProdDuke.onmicrosoft.com/bookings/"
+		target="_blank">
+		contact OIT (requires Duke MS Outlook)</a></li>
+	   <li>Not suitable for "sensitive" data (which includes PHI).</li>
+	</ul>
+	
+	<h3><a href="HPC-sensitive-data.html">School of Medicine HPC Cluster</a></h3>
+	
+	<ul>
+	  <li>
+	  Has a single GPU node with 4 NVIDIA L40S GPUs plus 64 CPU cores and 1 TB RAM.
+      <li>As of June 2024 the cost was $3.50 / GPU-hour.</li>
+      <li>	  The L40S GPUs have smaller memory
+	  than A100's, but may have faster processing.</li> 
+
+	  <li>It may be possible for PIs to
+	  purchase additional GPU nodes and house them in this HPC cluster. Please contact
+	  OASIS at <a href="https://bit.ly/som-hpc-request">https://bit.ly/som-hpc-request</a>
+      (requires Duke login).</li>
+	  
+	  <li>Suitable for "sensitive" data, including PHI.</li>
 	</ul>
     </main>
     
