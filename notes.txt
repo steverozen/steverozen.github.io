@@ -1,2 +1,10 @@
 vpn for som: vpn.duhs.duke.edu MFA option is push
 for campus vpn.duke.edu group INTL-DUKE (https://dukestatsci.github.io/computing_bootcamp_2021/slides/00_introduction_and_resources.html#9)
+
+Checkers:
+Link: https://validator.w3.org/checklink?uri=https%3A%2F%2Fsteverozen.github.io%2Findex.html&hide_type=all&recursive=on&depth=2&check=Check
+
+html:
+https://validator.w3.org/nu/
+
+
