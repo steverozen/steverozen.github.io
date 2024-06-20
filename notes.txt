@@ -7,4 +7,6 @@ Link: https://validator.w3.org/checklink?uri=https%3A%2F%2Fsteverozen.github.io%
 html:
 https://validator.w3.org/nu/
 
+markdown to HTML: https://html.earth/
+
 
