@@ -9,4 +9,15 @@ https://validator.w3.org/nu/
 
 markdown to HTML: https://html.earth/
 
+Globus slides: 
+https://www.cisl.ucar.edu/sites/default/files/2021-10/2020-globus-slides.pdf
+Globus overview: https://www.globus.org/data-transfer
+rsync and globus: https://d.i10o.ca/writing/globus-rsync/
+
+seurat tutorial:
+https://satijalab.org/seurat/articles/get_started.html
+
+https://www.youtube.com/watch?v=5HBzgsz8qyk
+
+
 
