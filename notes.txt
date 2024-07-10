@@ -20,4 +20,26 @@ https://satijalab.org/seurat/articles/get_started.html
 https://www.youtube.com/watch?v=5HBzgsz8qyk
 
 
+https://oit-rc.pages.oit.duke.edu/rcsupportdocs/dcc/files/
+
+https://oit-rc.pages.oit.duke.edu/rcsupportdocs/globus/dccglobus/
+https://rc.duke.edu/services/data-transfers-to-and-from-duke-based-storage-resources/
+
+https://phoenixbioinfo.org/cyverse/
+
+https://oit-rc.pages.oit.duke.edu/rcsupportdocs/OpenOnDemand/DCCDesktop/
+
+
+https://www.xquartz.org/releases/index.html
+
+https://quarto.org/docs/authoring/cross-references.html
+
+https://kempnerinstitute.harvard.edu/research/deeper-learning/distinguishing-the-knowable-from-the-unknowable-with-language-models/
+
+https://medicine.duke.edu/research/research-resources/bioinformatics-and-clinical-analytics-team
+
+**** https://pnnl-comp-mass-spec.github.io/proteomics-data-analysis-tutorial/ora.html
+
+https://biostatsquid.com/fgsea-tutorial-gsea/
+
 
