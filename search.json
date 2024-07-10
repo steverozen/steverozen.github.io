@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "origindex.html",
+    "href": "origindex.html",
+    "title": "testquartoweb",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\nfile2 is here"
+  },
+  {
+    "objectID": "index.html#how-to",
+    "href": "index.html#how-to",
+    "title": "Research Computing and Bioinformatics How-To",
+    "section": "How to …",
+    "text": "How to …\n\nGet a cheat sheet for School of Medicine research computing resources\nAccess high-performance computing for sensitive data\nAccess high-performance computing for non-sensitive data\nFind GPUs for machine learning\nGet help with network questions in School of Medicine buildings: contact https://bit.ly/Duke-OASIS; for other buildings contact OIT (requires Duke MS Outlook)\nUse Microsoft Copilot (ChatGPT-like large language model) with your data and prompts protected by Duke’s security agreement (ok for “sensitive” data but not ok for PHI): https://oit.duke.edu/service/microsoft-copilot\nRequest a faster wired network connection in School of Medicine buildings contact https://bit.ly/Duke-OASIS; for other buildings contact OIT (requires Duke MS Outlook)\nGet a JupyterLab notebook on an HPC cluster\nGet RStudio on an HPC cluster\nBudget for and order a server for my laboratory, get sysadmin support, and find a place to house it\nUse AWS S3 storage for long-term data archiving (requires Duke login)\nUse Globus for fast, robust transfer to AWS S3 (requires Duke login)\nUpload data to dbGap\nUpload data to SRA\n\n\nFor help or consulting with any of the above\n\nFor sensitive data, or network issues in School of Medicine buildings, contact OASIS: https://bit.ly/Duke-OASIS\nFor non-sensitive data, contact OIT (requires Duke Microsoft Outlook)\n\n\n© 2024 Steven Rozen and Duke University; send corrections and queries to sr110 [at] duke.edu"
+  },
+  {
+    "objectID": "HPC-non-sensitive-data.html",
+    "href": "HPC-non-sensitive-data.html",
+    "title": "High Performance Computing for Non-Sensitive Data",
+    "section": "",
+    "text": "DCC - Duke Compute Cluster\nThe Duke Office of Information Technology (OIT) provides a high-performance computing (HPC) cluster called DCC (Duke Compute Cluster, https://bit.ly/oit-dcc){target=“blank”}.\n\nDCC runs AlmaLinux and the Slurm scheduler. Two Slurm partitions are free to use. In addition, labs can add their own nodes (provided they are compatible with the cluster) and always get priority access on their node. Other labs can use the node but are evicted immediately if the owner wants to use the node.\nDCC provides most bioinformatics software packages using the “Environment Modules” system (https://modules.sourceforge.net), and other standard packages can usually be added to the module system on request.\nPIs can arrange with OIT to add their own nodes to DCC. Computing can also be reserved at $85 / core-year. Additional pricing at https://oit.duke.edu/help/articles/kb0030661/.\nDCC offers the “Open OnDemand” web-browser interface (https://openondemand.org). This provides a Linux desktop plus RStudio, JupyterLab notebooks, and VS Code. The interface is available at https://dcc-ondemand-01.oit.duke.edu/ (Duke login and account on DCC required).\nData storage: 1 TB free storage per lab, additional storage available for rent. Archival storage is $62 / TB-year without backup and $144 / TB-year with backup. Additional pricing for higher speed storage is at https://oit.duke.edu/help/articles/kb0030661.\nFor PIs to manage the users in their account see Research Toolkits (requires Duke netid login).\nFor PIs to request an account on DCC and for additional help and advice on DCC contact OIT (requires Duke MS Outlook).\n\nThe Department of Computer Science also has an HPC cluster that is only available to faculty in that department; see https://cs.duke.edu/resources/computing-resources/faqs.\n\n© 2024 Steven Rozen and Duke University; send corrections and queries to sr110 [at] duke.edu"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "© 2024 Steven Rozen and Duke University\n2024 07 09 Send corrections and queries to sr110 [at] duke.edu"
+  },
+  {
+    "objectID": "gpuresources.html",
+    "href": "gpuresources.html",
+    "title": "GPU resources",
+    "section": "",
+    "text": "There are two high performance compute clusters with GPUs.\n\nDuke Compute Cluster (DCC)\n\nContains multiple GPUs, including A6000’s and A5000’s.\nSome of these are on the “scavenger partition”, which is a Slurm partition for PI-owned nodes that are available to other users willing to be evicted when the owner wants to use the node.\nPI-owned GPU nodes can be added provided they are compatible with the DCC’s requirements regarding operating system, power usage, form factor, etc.\nFor additional help and advice regarding GPUs in DCC, contact OIT (requires Duke MS Outlook).\nNot suitable for “sensitive” data (which includes PHI).\n\n\n\nSchool of Medicine HPC Cluster\n\nHas a single GPU node with 4 NVIDIA L40S GPUs plus 64 CPU cores and 1 TB RAM.\nAs of July 2024, a package of 432 GPU-hours and 10 TB of data storage was available for $1000, and larger packages were also available; see https://bit.ly/SoM-HPC .\nThe L40S GPUs have smaller memory than A100’s, but may have faster processing.\nPIs can purchase additional GPU nodes and house them in this HPC cluster. See https://bit.ly/SoM-HPC for costing and contact OASIS at https://bit.ly/som-hpc-request to make a request (requires Duke login).\nSuitable for “sensitive” data, including PHI.\n\n\n© 2024 Steven Rozen and Duke University; send corrections and queries to sr110 [at] duke.edu"
+  },
+  {
+    "objectID": "HPC-sensitive-data.html",
+    "href": "HPC-sensitive-data.html",
+    "title": "High Performance Computing for Sensitive Data",
+    "section": "",
+    "text": "Duke School of Medicine Research Computing Center\nThe Duke University School of Medicine has an on-premises high performance computing (HPC) cluster provided by OASIS’s SoM Research Computing Center. See https://bit.ly/SoM-HPC for costing.\nCompute and storage is purchased as “packages” with the “small” CPU package providing 186,000 core-hours and 10 TB of storage. The largest package provides 983,000 core-hours and 70 TB of storage.\nPIs can also provide their own nodes for the cluster, with a machine with 64 cores and 1 TB of RAM costing $22,280 as of July 9, 2024. There are also GPU options. See “BYOH, (Bring Your Own Hardware)” at https://bit.ly/SoM-HPC.\nThe “small” GPU package provides 432 GPU-hours and 10 TB of data storage for $1000 as of July 9, 2024, and larger packages are also available; see https://bit.ly/SoM-HPC.\nBriefly, this HPC cluster provides:\n\nRed Hat Linux 9, the Slurm scheduler, InfiniBand networking within the cluster, and a Lustre file system\n27 compute nodes (64 hyperthreaded cores, 1 TB RAM)\n1 GPU node (4 NVIDIA L40S GPUs + 64 CPU cores + 1 TB RAM)\nThe “Open OnDemand” web-browser interface (https://openondemand.org) which provides a Linux desktop, RStudio, JupyterLab and VS Code is planned for this HPC cluster (as of July 9, 2024)\n\nTo request access, technical help, consulting, or to discuss adding your own node to the HPC cluster: https://bit.ly/som-hpc-request (requires Duke login)\n\n© 2024 Steven Rozen and Duke University; send corrections and queries to sr110 [at] duke.edu"
+  },
+  {
+    "objectID": "ondemand-interfaces.html",
+    "href": "ondemand-interfaces.html",
+    "title": "Jupyter, RStudio, VS Code, and Linux desktops on Duke HPC Clusters",
+    "section": "",
+    "text": "The DCC (Duke Compute Cluster, for non-sensitive data) offers the “Open OnDemand” web-browser interface (https://openondemand.org). This provides a Linux desktop plus RStudio, JupyterLab notebooks, VS Code, and a Linux desktop. The interface is available at https://dcc-ondemand-01.oit.duke.edu/ (Duke login and account on DCC required).\nThis opens a dashboard in the web browser:\n\n\n\nDCC OnDemand front page\n\n\nDrop down menus provide access to IDEs (RStudio, JupyterLab, VS Code)\n\n\n\nDCC OnDemand dropdown for IDEs\n\n\nand a Linux desktop\n\n\n\nDCC OnDemand dropdown for Linux desktop\n\n\nThe School of Medicine on-premises HPC cluster, for sensitive data should provide an OnDemand interface soon (as of July 9, 2024).\n\n© 2024 Steven Rozen and Duke University; send corrections and queries to sr110 [at] duke.edu"
+  }
+]
